@@ -1,0 +1,16 @@
+[
+{
+  "modid": "scroll-hotbar-fix",
+  "name": "Scroll and Hotbar fix",
+  "description": "Fixes duplicate scroll events on Wayland compositors for Minecraft 1.12.2 Forge. Affects both hotbar scrolling and GUI scrolling.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["axl-dev-uy"],
+  "credits": "Me, myself and I",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
