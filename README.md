@@ -7,11 +7,9 @@ On Linux with Wayland, scroll events in Minecraft fire twice on every other scro
 ## The Fix
 This mod intercepts scroll events and suppresses duplicates that arrive within a configurable time window.
 
-
 ## Configuration
 A config file is generated at config/scroll-hotbar-fix.cfg on first launch.
 OptionDefaultDescriptionscrollThreshold25Time in milliseconds to suppress duplicate scroll events. Increase if double scrolling persists, decrease if fast intentional scrolls are being skipped.
-
 
 ## Compatibility
 -   Minecraft 1.12.2
@@ -19,8 +17,8 @@ OptionDefaultDescriptionscrollThreshold25Time in milliseconds to suppress duplic
 -   Linux with Wayland (KDE Plasma tested)
 -   Java 8 and 25
 
-## Notes
-This mod was made specifically with the [MeatballCraft](https://www.curseforge.com/minecraft/modpacks/meatballcraft) modpack in mind and has been tested there. It should work with any 1.12.2 Forge modpack on Wayland, but MeatballCraft is the primary use case.
+## Notes  
+This mod was made specifically with the [MeatballCraft](https://www.curseforge.com/minecraft/modpacks/meatballcraft) modpack in mind and has been tested there with their implementation of [CleanroomMC](https://github.com/CleanroomMC/Cleanroom) on Java 25, and the original 1.12.2's Java 8. It should work with any 1.12.2 Forge modpack on Wayland, but MeatballCraft is the primary use case.
 
 ## Disclaimer
 This mod was written in about 30 minutes as a workaround for a very specific Linux/Wayland issue. It works, but I make no guarantees about its stability or compatibility with every possible setup. Use at your own risk. I am not responsible for any damages, corrupted worlds, existential crises, or scroll-related injuries that may result from its use.
